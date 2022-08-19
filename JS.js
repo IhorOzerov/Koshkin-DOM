@@ -1,17 +1,17 @@
-let descr_text = document.querySelector("#descr-text");
-let descr_img = document.querySelector("#descr-img");
+let descr_text = document.querySelector("#descr_text");
+let descr_img = document.querySelector("#descr_img");
 let body_color = document.querySelector("body").style;
-let nav = document.querySelector(".nav-bar").style;
+let nav = document.querySelector("#side").style;
 
-function change_fireLover() {
-    let fireLover_descr ="This cat loves to chat a lot. He speaks even when asked to be quiet by the older cats.Will always find a way to say something. He loves to joke around and be nice. But despite his playfulness,he is lonely without a friend by his side. He really wants to communicate with a cat-girl. Beautiful catgirl. You must be wondering why his name is Fire Lover? Well, I don't know myself, let's ask him next time you see him."
-    descr_text.innerHTML = fireLover_descr;
+function change_fire_lover() {
+    let fire_lover_descr ="This cat loves to chat a lot. He speaks even when asked to be quiet by the older cats.Will always find a way to say something. He loves to joke around and be nice. But despite his playfulness,he is lonely without a friend by his side. He really wants to communicate with a cat-girl. Beautiful catgirl. You must be wondering why his name is Fire Lover? Well, I don't know myself, let's ask him next time you see him."
+    descr_text.innerHTML = fire_lover_descr;
     descr_img.src = "./img/4.png"
     body_color.backgroundColor = "#f4dec2";
     nav.color = "#9577f0";
-   descr_text.style.color = "#359aae";
+    descr_text.style.color = "#359aae";
 }
-document.querySelector("#firelover").addEventListener('click', change_fireLover);
+document.querySelector("#firelover").addEventListener('click', change_fire_lover);
 
 
 
@@ -36,15 +36,15 @@ function change_Dark_and_Wise() {
 }
 document.querySelector("#wise").addEventListener('click', change_Dark_and_Wise);
 
-function change_readhead() {
-    let fireLover_descr ="This is Red Head. She, like all kittens, immediately went to solve all cases at once, while not forgetting about beauty. Faced with problems, she does not despair, but copes with them, albeit with hard work, but how else? Sometimes helps other kittens by showing their mistakes and giving advice. Is she smart? I don't know, but I know for sure that by perseverance she gets excellent results."
-    descr_text.innerHTML = fireLover_descr;
+function change_red_head() {
+    let red_head_descr ="This is Red Head. She, like all kittens, immediately went to solve all cases at once, while not forgetting about beauty. Faced with problems, she does not despair, but copes with them, albeit with hard work, but how else? Sometimes helps other kittens by showing their mistakes and giving advice. Is she smart? I don't know, but I know for sure that by perseverance she gets excellent results."
+    descr_text.innerHTML = red_head_descr;
     descr_img.src = "./img/5.png"
     body_color.backgroundColor = "#e0e8ba";
     nav.color = "#bd3529";
     descr_text.style.color = "#0dcef6";
 }
-document.querySelector("#redhead").addEventListener('click', change_readhead);
+document.querySelector("#redhead").addEventListener('click', change_red_head);
 
 function change_manul() {
     let manul_descr = "And this is me, Manul. Yes, it was I who told you about other cats and kittens. And I hope you liked it, especially those kittens I wrote about, and older cats will like it too. I am a simple kitten, like everyone else. I also like to chat sometimes and help other kittens in any way I can, because I started not so long ago as a Wise Cat or Possum. I don't always have the brains, perseverance, or creativity, but I keep going. Sometimes I stop to warm my paws. Hope to see you again!"
@@ -55,6 +55,9 @@ function change_manul() {
     descr_text.style.color = "#5a3d41";
 }
 document.querySelector("#manul").addEventListener('click', change_manul);
+
+
+
 
 
 

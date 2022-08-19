@@ -4,9 +4,11 @@ body{
     padding-right: 40px;
     background-color: #f4dec2;
 }
+ul{
+    padding: 0;
+}
 
-
-.nav-bar{
+.nav_bar{
     display: flex;
     height: 100vh;
     min-width: 20%;
@@ -16,12 +18,20 @@ body{
     color: #9577f0;
 }
 
-.nav-list {
+.nav_list {
     list-style: none;
     height: 8vh;
     font-size: 2vw;
     font-weight: lighter;
     margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_list:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .content{
@@ -30,14 +40,14 @@ body{
     justify-content: center;
 }
 
-#descr-img{
+.image{
     align-self: center;
     justify-self: center;
     max-height: 60vh;
     max-width: 30vw;
 }
 
-#descr-text{
+.text{
     text-align: center;
     font-size: 1.7vw;
     color: #359aae;
