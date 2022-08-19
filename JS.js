@@ -4,7 +4,7 @@ let body_color = document.querySelector("body").style;
 let nav = document.querySelector(".nav-bar").style;
 
 function change_fireLover() {
-    let fireLover_descr ="This cat loves to chat a lot. He speaks even when asked to be quiet by the older cats.Will always find a way to say something. He loves to joke around and be nice. But despite his playfulness,he is lonely without a friend by his side. He really wants to communicate with a cat-girl. Beautiful catgirl. You must be wondering why his name is Fire Lover? Well, I don't know myself, let's ask him next timeyou see him."
+    let fireLover_descr ="This cat loves to chat a lot. He speaks even when asked to be quiet by the older cats.Will always find a way to say something. He loves to joke around and be nice. But despite his playfulness,he is lonely without a friend by his side. He really wants to communicate with a cat-girl. Beautiful catgirl. You must be wondering why his name is Fire Lover? Well, I don't know myself, let's ask him next time you see him."
     descr_text.innerHTML = fireLover_descr;
     descr_img.src = "./img/4.png"
     body_color.backgroundColor = "#f4dec2";
