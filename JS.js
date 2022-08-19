@@ -16,7 +16,7 @@ document.querySelector("#firelover").addEventListener('click', change_fireLover)
 
 
 function change_possum() {
-    let possum_descr = "Possum cat? Yes, we have such a character. He is also a sweet and kind cat, and also smart. Much smarter than Fire Lover. He can meow in a made-up language that almost no one knows. And when he sleeps no one knows. He helps all the kittens find their inner cat... even though he's a possum.";
+    let possum_descr = "Possum cat? Yes, we have such a character. He is also a sweet and kind cat, and also smart. Much smarter than Fire Lover. He can meow in a made-up language that almost no one knows. He loves his opossum brothers very much and often shares pictures of them with the kittens. His advice is always helpful. And when he sleeps no one knows. He helps all the kittens find their inner cat... even though he's a possum.";
     descr_text.innerHTML = possum_descr;
     descr_img.src = "./img/Opossum.webp"
     body_color.backgroundColor = "antiquewhite";
